@@ -5,7 +5,7 @@ import { FaBitbucket, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 export const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-        <div className="max-w-[124px] w-full h-full mx-auto flex justify-center items-center">
+        <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center">
             <div className="">
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Lets build something tgether</p>
                 <h1 className='py-4 text-gray-600'>Hi I am <span className='text-[#5651e5]'>Rownak Hayat</span> </h1>
