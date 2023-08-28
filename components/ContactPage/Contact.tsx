@@ -28,7 +28,7 @@ const Contact = () => {
                                 <div className="flex items-center justify-between py-4">
                                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                            <FaLinkedin />
+                                            <FaLinkedin href='https://www.linkedin.com/in/rownak-hayat-427259246/' />
                                         </div>
                                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                             <FaMailBulk />

@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/projectImg/property.jpg';
+import molHomepage from '../public/projectImg/MOL.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+
 
 const property = () => {
   return (
@@ -13,7 +14,7 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={molHomepage}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -27,24 +28,23 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
+            This app was built using Bootstarap and is hosted on Firebase. Users
+            are able to search properties based to retrieve a list of active properties currently for sale. You will
             be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
+            Information of the property integrated with the MOL Library. User
             authentication is available so you can signup and signin to your
             account with an email address in order to save your favorite
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/RownakHayat/t-shirt-shop'
+            href='https://bitbucket.org/simec-web/mol-library/src/rownak/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='http://103.84.36.246:800/mol-library/public/'
             target='_blank'
             rel='noreferrer'
           >

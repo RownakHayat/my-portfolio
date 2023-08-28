@@ -1,7 +1,7 @@
 
 import React from 'react'
-import propertyImg from '../../public/projectImg/property.jpg'
 import cryptoImg from '../../public/projectImg/crypto.jpg'
+import molHomepage from '../../public/projectImg/MOL.png'
 import netflixImg from '../../public/projectImg/netflix.jpg'
 import twitchImg from '../../public/projectImg/twitch.jpg'
 
@@ -19,7 +19,7 @@ const Project = () => {
 
                <ProjectItems 
                title='Property Finder' 
-               backgroundImg={propertyImg}
+               backgroundImg={molHomepage}
                projectUrl='/property' />
                <ProjectItems 
                title='Property Finder' 
